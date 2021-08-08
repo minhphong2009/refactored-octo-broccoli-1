@@ -1,0 +1,74 @@
+/*chỗ này cũng bị sai, max-width:992 với max-width:768 => chỉ có duy nhất điều kiện max-width:768*/
+@media only screen and (max-width: 992px){
+.image{
+    padding: 25px 0;
+  }
+  .row-main__pictures .image img{
+    width: 100%;
+    max-height: 153px;
+  }
+    
+  .row-main__pictures .invite{
+    padding: 25px 0;
+  }
+  .row-main__pictures .invite img{
+    width: 100%;
+    height: fit-content;
+  }
+  .row-navbar{
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .row-banner {
+    position: relative;
+  }
+  .row-banner img{
+    width: 100%;
+    max-height: 500px;
+  }
+  .row-banner__text {
+    position: relative;
+    padding: 16px;
+    color: black;
+  }
+  .menu,header {
+    background-color: rgba(85,98,112,1);
+    height: 50px;
+    }
+    ul {
+      list-style-type: none;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .thick{
+      border: 1px solid black;
+    }
+    ul>li {
+    display: inline-block;
+    padding: 10px;
+  }
+  .menu ul li a{
+    color: white;
+  }
+  .hide{
+    display: none ;
+    visibility: hidden;
+  }
+  .col-md-1 {width: 8.33%;}
+  .col-md-2 {width: 16.66%;}
+  .col-md-3 {width: 25%;}
+  .col-md-4 {width: 33.33%;}
+  .col-md-5 {width: 41.66%;}
+  .col-md-6 {width: 50%;}
+  .col-md-7 {width: 58.33%;}
+  .col-md-8 {width: 66.66%;}
+  .col-md-9 {width: 75%;}
+  .col-md-10 {width: 83.33%;}
+  .col-md-11 {width: 91.66%;}
+  .col-md-12 {width: 100%;}
+}
