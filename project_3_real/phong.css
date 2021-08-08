@@ -1,0 +1,149 @@
+[class*="col-"] {
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+header {
+  float: left;
+  width: 100%;
+}
+    
+    @media screen and (max-width: 768px) and (max-width: 992px){
+      .col-md-1 {width: 8.33%;}
+      .col-md-2 {width: 16.66%;}
+      .col-md-3 {width: 25%;}
+      .col-md-4 {width: 33.33%;}
+  .li{
+      color: grey;
+    }
+    .my{
+      margin-left: 400px;
+    }
+    .text{
+     text-align: center;
+     column-count:3;
+     width: 1800px;
+ }
+ .column {
+  column-count: 2;  
+}
+    }
+@media only screen and ( max-width: 767px ){
+.menu{
+  background-color: rgb(85, 98, 112);
+}
+}
+#centered {   
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+ #sizeback
+ {
+    background-size:cover; 
+ }
+.new
+{
+font-family: arial;
+}
+#sans-serif-fonts
+{
+font-family: calibri
+}
+.color
+{
+background-color: white
+}
+#background-color{
+background-color: #999999;
+width: 100%;
+}
+#background-color2{
+    background-color: #F5F5F5;
+}
+#background{
+color: white;
+font-size: 25px;
+}
+a, p
+{
+text-decoration: none;
+font-family: arial;
+}
+.a1{
+float:left;
+padding:15px;
+}
+ul li.navbar__left{
+  float: left;
+}
+.navbar__right{
+  float: right;
+}
+@media only screen and (max-width: 992px) {
+  .image{
+      padding: 25px 0;
+    }
+    .row-main__pictures .image img{
+      width: 100%;
+      max-height: 153px;
+    }
+    
+    .row-main__pictures .invite{
+      padding: 25px 0;
+    }
+    .row-main__pictures .invite img{
+      width: 100%;
+      height: fit-content;
+    }
+    .row-navbar{
+      height: 54px;
+      display: flex;
+      justify-content: center;
+
+      align-items: center;
+      padding: 10px;
+    }
+    .row-banner {
+      position: relative;
+    }
+    .row-banner img{
+      width: 100%;
+      max-height: 500px;
+    }
+    /* .row-banner__text {
+      position: absolute;
+      padding: 16px;
+      color: white;
+      text-shadow: 2px 2px 5px grey;
+      top: 98px;
+      left: 50px;
+    } */
+    .menu {
+      background-color: #FFFFFF;
+      height: 50px;
+      }
+      ul {
+        list-style-type: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      ul>li {
+      display: inline-block;
+      padding: 10px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    /* màn hình là 767 vì nếu 768px là màn hình ipad rồi em nhé */
+    ul li.navbar__right, ul li.navbar__left {
+      float: none;
+    }
+    ul li {
+      padding: 2px !important;
+    }
+  }
+  
